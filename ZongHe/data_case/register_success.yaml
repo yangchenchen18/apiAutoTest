@@ -1,0 +1,8 @@
+- data: {"mobilephone":"13512340093","pwd":"123456"}
+  expect: {"status":1,"code":"10001","data":{},"msg": "成功" }
+- data: {"mobilephone":"13512340095","pwd":"123456","regname":"闪电" }
+  expect: {"status":1,"code":"10001","data":{},"msg":"成功" }
+- data: {"mobilephone":"13151234712","pwd":"123456789123456789","regname":"闪电" }
+  expect: {"status":1,"code":"10001","data":{},"msg":"成功" }
+- data: {"mobilephone":"13112346134","pwd":"234567890123456789" }
+  expect: {"status":1,"code":"10001","data":{},"msg":"成功" }
